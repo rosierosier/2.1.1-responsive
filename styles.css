@@ -50,35 +50,58 @@ img {
 }
 
 .jumbotron {
-
+  width: 1024px;
+  height: 361px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(https://upload.wikimedia.org/wikipedia/fr/2/23/Powell_Peralta_Logo.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 65px;
 }
 
-.jumbotron img {
-
-}
+/*.jumbotron img {
+  height: 100%;
+  overflow: hidden;
+  border: 10px solid white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+}*/
 
 .jumbotron a {
 
 }
 
 .articles {
-
 }
 
 .article-box {
-
+  width: 334px;
+  height: 354px;
+  background-color: white;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  padding: 30px;
+  display: inline-block;
+  margin-right: 11px;
 }
 
 .article-box h1 {
-
+  color: black;
+  font-size: 24px;
 }
 
 .article-box p {
-
+  font-size: 14px;
 }
 
 .article-box a {
-
+  color: #bf0008;
+  text-align: center;
 }
 
 .skateboarders {
