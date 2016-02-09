@@ -5866,7 +5866,8 @@ img {
 .social-media-links a {
   display: inline-block;
   text-align: center;
-  float: left; }
+  float: left;
+  margin-left: 9px; }
 
 #facebook {
   background-color: #42529b;
@@ -5972,7 +5973,8 @@ img {
   background-position: center;
   background-size: cover;
   border: 5px solid white;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  box-shadow: 0 4px rgba(147, 147, 147, 0.6); }
 
 .skateboarder-rodney-box {
   height: 236px;
@@ -5983,7 +5985,8 @@ img {
   background-position: center;
   background-size: cover;
   border: 5px solid white;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  box-shadow: 0 4px rgba(147, 147, 147, 0.6); }
 
 .skateboarder-tommy-box {
   height: 478px;
@@ -5994,7 +5997,8 @@ img {
   background-position: center;
   background-size: cover;
   border: 5px solid white;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  box-shadow: 0 4px rgba(147, 147, 147, 0.6); }
 
 .skateboarder-steve-box {
   height: 236px;
@@ -6005,7 +6009,8 @@ img {
   background-position: center;
   background-size: cover;
   border: 5px solid white;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  box-shadow: 0 4px rgba(147, 147, 147, 0.6); }
 
 .skateboarder-box a {
   display: inline-block;
@@ -6049,6 +6054,21 @@ img {
   line-height: 51px;
   font-weight: bold;
   padding-left: 111px; }
+
+.skateboarder-tommy-box a {
+  display: inline-block;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 177px;
+  line-height: 51px;
+  font-weight: bold;
+  padding-left: 7px; }
 
 /*.skateboarders img {
   max-width: 100%;
