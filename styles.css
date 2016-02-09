@@ -1,5 +1,12 @@
-html {
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://kpattou.files.wordpress.com/2015/08/skateboard-skatepark-4.jpg?w=620&h=620);
+}
 
+img {
+  max-width: 100%;
 }
 
 .social-media {
@@ -51,11 +58,14 @@ html {
 }
 
 .skateboarders {
-
+  width: 324px;
+  height: 221px;
+  display: inline-block;
 }
 
 .skateboarders img {
-
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .skateboarders a {
