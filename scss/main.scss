@@ -36,9 +36,25 @@ img {
   border: 2px solid white;
 }*/
 
-.social-media {
+/*.social-media {
   margin-top: 6px;
   margin-bottom: 16px;
+}*/
+
+.subscribe {
+  float: right;
+  line-height: 70px;
+}
+
+.subscribe a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media-links {
+  float: right;
+  margin-bottom: 16px;
+  margin-top: 6px;
 }
 
 .social-media-links i {
@@ -84,7 +100,6 @@ img {
 
 .nav a {
   display: inline-block;
-  margin-bottom: 21px;
   background-color: #c30021;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
   height: 44px;
@@ -98,7 +113,6 @@ img {
 }
 
 .jumbotron {
-  width: 1024px;
   height: 337px;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
   margin: 0 auto;
@@ -107,7 +121,7 @@ img {
   background-position: center;
   background-size: cover;
   margin-bottom: 65px;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /*.jumbotron::after {
@@ -179,6 +193,42 @@ img {
   margin: 0 auto;
   position: relative;
   background-image: url(../images/sk8er-4.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  margin-bottom: 6px;
+}
+
+.skateboarder-rodney-box {
+  height: 236px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/sk8er-3.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  margin-bottom: 6px;
+}
+
+.skateboarder-tommy-box {
+  height: 478px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/sk8er-2.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  margin-bottom: 6px;
+}
+
+.skateboarder-steve-box {
+  height: 236px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/sk8er-1.png);
   background-position: center;
   background-size: cover;
   border: 5px solid white;
