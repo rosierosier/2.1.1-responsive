@@ -1,3 +1,9 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,15 +19,43 @@ img {
   max-width: 100%;
 }
 
+header {
+  background: url("http://unsplash.it/1024/337") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 337px;
+  border: 2px solid white;
+}
+
 .social-media {
   margin-top: 6px;
   margin-bottom: 20px;
 }
 
-.social-media img {
+.social-media a {
   width: 60px;
   height: 60px;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+}
+
+.social-media i {
+  color: white;
+}
+
+#facebook {
+  background-color: #42529b;
+}
+
+#rss {
+
+}
+
+#twitter {
+
+}
+
+#youtube {
+
 }
 
 .nav {
@@ -51,7 +85,7 @@ img {
 
 .jumbotron {
   width: 1024px;
-  height: 361px;
+  height: 337px;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
   margin: 0 auto;
   position: relative;
@@ -100,9 +134,14 @@ img {
   font-size: 14px;
 }
 
+.date {
+  color: #989898;
+}
+
 .article-box a {
   color: #bf0008;
   text-align: center;
+  font-weight: bold;
 }
 
 .skateboarders {
