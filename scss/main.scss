@@ -237,11 +237,48 @@ img {
 
 .skateboarder-box a {
   display: inline-block;
-  position: aboslute;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  margin-top: 58px;
+  line-height: 51px;
+  font-weight: bold;
+}
+
+.skateboarder-rodney-box a {
+  display: inline-block;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 58px;
+  line-height: 51px;
+  font-weight: bold;
+}
+
+.skateboarder-steve-box a {
+  display: inline-block;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 84px;
+  line-height: 51px;
+  font-weight: bold;
+  padding-left: 111px;
 }
 
 
