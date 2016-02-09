@@ -1,0 +1,249 @@
+@import "variables";
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/bg.jpg);
+  position: relative;
+}
+
+/*body::after {
+  background-color: rgba(147, 147, 147, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*header {
+  background: url("http://unsplash.it/1024/337") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 337px;
+  border: 2px solid white;
+}*/
+
+.social-media {
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.social-media-links i {
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 64px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.social-media-links a {
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+#facebook {
+  background-color: #42529b;
+  width: 60px;
+  height: 64px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+}
+
+#rss {
+  background-color: #d68f0b;
+  width: 60px;
+  height: 64px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+}
+
+#twitter {
+  background-color: #638acb;
+  width: 60px;
+  height: 64px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+}
+
+#youtube {
+  background-color: #c21d1e;
+  width: 60px;
+  height: 64px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+}
+
+.nav a {
+  display: inline-block;
+  margin-bottom: 21px;
+  background-color: #c30021;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  height: 44px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  line-height: 44px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.jumbotron {
+  width: 1024px;
+  height: 337px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/top-image.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 65px;
+  border-radius: 0;
+}
+
+/*.jumbotron::after {
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  background-image: url(../images/peralta-logo.png);
+}*/
+
+/*.jumbotron img {
+  height: 100%;
+  overflow: hidden;
+  border: 10px solid white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+}*/
+
+.jumbotron a {
+
+}
+
+
+.article-box {
+  // width: 334px;
+  height: 354px;
+  background-color: white;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  padding: 30px 30px 23px 29px;
+  display: inline-block;
+  margin-bottom: 37px;
+}
+
+.article-box h1 {
+  color: black;
+  font-size: 23.2px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.article-box p {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.date {
+  color: #989898;
+  margin-bottom: 12px;
+}
+
+.article-box a {
+  color: #bf0008;
+  font-weight: bold;
+  position: relative;
+  left: 78px;
+}
+
+.skateboarders {
+  //width: 324px;
+  //height: 221px;
+  display: inline-block;
+}
+
+.skateboarder-box {
+  height: 236px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/sk8er-4.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  margin-bottom: 6px;
+}
+
+.skateboarder-box a {
+  display: inline-block;
+  position: aboslute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*.skateboarders img {
+  max-width: 100%;
+  max-height: 100%;
+}*/
+
+.skateboarders a {
+
+}
+
+.skateboard-designs {
+
+}
+
+.skateboard-designs a {
+
+}
+
+.contact {
+
+}
+
+.contact h1 {
+
+}
+
+.contact p {
+
+}
+
+.contact a {
+
+}
+
+.form {
+
+}
+
+.form h2 {
+
+}
+
+.button {
+
+}
+
+.button h2 {
+
+}
+
+.button a {
+
+}
