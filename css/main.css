@@ -6096,26 +6096,24 @@ img {
   max-height: 100%;
 }*/
 .designs {
-  background-color: white;
   height: 299px;
-  width: 1014px;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
-  margin: 0 auto;
   position: relative;
   background-image: url(http://d2cjjbw87j6ehp.cloudfront.net/cart/image/data/whatever-shortboards-category-image.png);
   background-position: center;
   background-size: cover;
-  margin-bottom: 65px;
-  border-radius: 0px;
   margin-top: 27px;
-  margin-bottom: 31px; }
+  margin-bottom: 65px;
+  border-radius: 0px; }
 
-.contact-info {
-  margin: 0 0 92px 176px;
+.contact-us {
+  height: 365px;
   background-color: white;
   border-bottom: 4px solid rgba(147, 147, 147, 0.6);
-  height: 365px;
-  display: inline-block;
+  margin-bottom: 92px; }
+
+.contact-info {
+  margin: 0 0 92px;
   padding: 30px; }
 
 .contact-info h1 {
@@ -6167,12 +6165,9 @@ img {
 
 .form {
   margin: 0 auto;
-  background-color: white;
-  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
-  height: 365px;
   margin-bottom: 92px;
   position: relative;
   display: inline-block;
-  width: 74%; }
+  padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */
