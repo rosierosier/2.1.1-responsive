@@ -1,6 +1,13 @@
-@import "variables";
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$grid-gutter-width: 10px;
+$container-large-desktop: (1014px + $grid-gutter-width);
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html {
+  width: 1999px;
+}
 
 body {
   background-repeat: no-repeat;
@@ -182,6 +189,26 @@ img {
   left: 78px;
 }
 
+.offset-skateboarders {
+  background-color: #b4292e;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  height: 100px;
+  width: 236px;
+  position: absolute;
+  z-index: 1;
+  left: 220px;
+}
+
+.offset-skateboarders a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 38px;
+}
+
 .skateboarders {
   //width: 324px;
   //height: 221px;
@@ -190,8 +217,7 @@ img {
 
 .skateboarder-box {
   height: 236px;
-  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
-  margin: 0 auto;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);  margin: 0 auto;
   position: relative;
   background-image: url(../images/sk8er-4.png);
   background-position: center;
@@ -220,7 +246,7 @@ img {
   margin: 0 auto;
   position: relative;
   background-image: url(../images/sk8er-2.png);
-  background-position: center;
+  background-position: 430px center;
   background-size: cover;
   border: 5px solid white;
   margin-bottom: 6px;
@@ -308,50 +334,98 @@ img {
   max-height: 100%;
 }*/
 
-.skateboarders a {
+.designs {
+  background-color: white;
+  height: 299px;
+  width: 1014px;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  margin: 0 auto;
+  position: relative;
+  background-image: url(http://d2cjjbw87j6ehp.cloudfront.net/cart/image/data/whatever-shortboards-category-image.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 65px;
+  border-radius: 0px;
+  margin-top: 27px;
+  margin-bottom: 31px;
+}
+
+.designs a {
 
 }
 
-.skateboard-designs {
-
+.contact-info {
+  margin: 0 0 92px 176px;
+  background-color: white;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  height: 365px;
+//  position: relative;
+  display: inline-block;
+  padding: 30px;
 }
 
-.skateboard-designs a {
-
+.contact-info h1 {
+  font-weight: normal;
+  font-size: 24px;
 }
 
-.contact {
-
+.contact-info p {
+  font-size: 15px;
+  line-height: 24px;
 }
 
-.contact h1 {
-
+.contact-links i {
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
-.contact p {
-
+.contact-links a {
+  display: inline-block;
+  text-align: center;
+  margin-left: 4px;
 }
 
-.contact a {
+#c-facebook {
+  background-color: #4f4f4f;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid rgba(147, 147, 147, 0.6);
+  border-left: 1px solid rgba(147, 147, 147, 0.6);
+}
 
+#c-rss {
+  background-color: #afafaf;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid rgba(147, 147, 147, 0.6);
+  border-left: 1px solid rgba(147, 147, 147, 0.6);
+}
+
+#c-twitter {
+  background-color: #7b7b7b;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid rgba(147, 147, 147, 0.6);
+  border-left: 1px solid rgba(147, 147, 147, 0.6);
+}
+
+#c-youtube {
+  background-color: #757575;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid rgba(147, 147, 147, 0.6);
+  border-left: 1px solid rgba(147, 147, 147, 0.6);
 }
 
 .form {
-
-}
-
-.form h2 {
-
-}
-
-.button {
-
-}
-
-.button h2 {
-
-}
-
-.button a {
-
+  margin: 0 auto;
+  background-color: white;
+  border-bottom: 4px solid rgba(147, 147, 147, 0.6);
+  height: 365px;
+  margin-bottom: 92px;
+  position: relative;
+  display: inline-block;
+  width: 74%;
 }
